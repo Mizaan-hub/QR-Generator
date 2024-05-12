@@ -4,7 +4,7 @@ function generateQRCode(){
     let QRImage = document.getElementById('QRImage');
 
 
-    if(userInput.value === ""){
+    if(userInput.value.trim() == "" ){
         alert("Please enter a value to generate a QR code");
     }
     else{
